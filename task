@@ -26,6 +26,8 @@ class ExtractDigit
 	public static void main(String[] args) 
 	{
 		Scanner S = new Scanner(System.in);
+		
+
          System.out.println("Enter Your Number");
 		 int num = S.nextInt();
          int product = 0;
@@ -42,3 +44,10 @@ class ExtractDigit
 		 System.out.println(product);
 	}
 }
+driver.manage().window().mazimize
+driver.manage().window().mazimize
+driver.manage().window().mazimize
+driver.manage().window().mazimize
+driver.manage().window().mazimize
+driver.manage().window().mazimize
+
