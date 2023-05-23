@@ -1,2 +1,44 @@
-1.Grocery
-   <img loading="lazy" class="_396cs4" alt="Grocery" src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100">
+import java.util.Scanner ;
+class ExtractDigit 
+{
+	public static void main(String[] args) 
+	{
+		Scanner S = new Scanner(System.in);
+         System.out.println("Enter Your Number");
+		 int num = S.nextInt();
+         int product = 0;
+		 int a = num%10;
+		 num/=10;
+		 product=product+a;
+		 while (num !=0)
+		 {
+			 int rem = num%10;
+			 product = product - rem;
+			  num = num/10;
+
+		 }
+		 System.out.println(product);
+	}
+}
+import java.util.Scanner ;
+class ExtractDigit 
+{
+	public static void main(String[] args) 
+	{
+		Scanner S = new Scanner(System.in);
+         System.out.println("Enter Your Number");
+		 int num = S.nextInt();
+         int product = 0;
+		 int a = num%10;
+		 num/=10;
+		 product=product+a;
+		 while (num !=0)
+		 {
+			 int rem = num%10;
+			 product = product - rem;
+			  num = num/10;
+
+		 }
+		 System.out.println(product);
+	}
+}
